@@ -1,6 +1,6 @@
 # WB Tech: level # 1 (Golang)
 
-## [Задание 1](/wildberries_l1/blob/main/1/1.go)
+## [Задание 1](/1/1.go)
 Дана структура Human (с произвольным набором полей и методов). Реализовать встраивание методов в структуре Action от родительской структуры Human (аналог наследования).
 
 ## [Задание 2](https://github.com/Generat17/wildberries_l1/blob/main/2/2.go)
