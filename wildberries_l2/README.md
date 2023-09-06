@@ -1,7 +1,7 @@
 # WB Tech: level # 2 (Golang)
 
 ## Паттерны проектирования (pattern)
-[1. Фасад (Facade)](/pattern/01_facade)
+[1. Фасад (Facade)](/wildberries_l2/pattern/01_facade)
 
 [2. Строитель (Builder)](/pattern/02_builder)
 
