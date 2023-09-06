@@ -3,68 +3,68 @@
 ## Паттерны проектирования (pattern)
 [1. Фасад (Facade)](/wildberries_l2/pattern/01_facade)
 
-[2. Строитель (Builder)](/wildberries_l1/pattern/02_builder)
+[2. Строитель (Builder)](/wildberries_l2/pattern/02_builder)
 
-[3. Посетитель (Visitor)](/wildberries_l1/pattern/03_visitor)
+[3. Посетитель (Visitor)](/wildberries_l2/pattern/03_visitor)
 
-[4. Команда (Command)](/wildberries_l1/pattern/04_command)
+[4. Команда (Command)](/wildberries_l2/pattern/04_command)
 
-[5. Цепочка ответственности (Chain Of Responsibility)](/wildberries_l1/pattern/05_chain_of_resp)
+[5. Цепочка ответственности (Chain Of Responsibility)](/wildberries_l2/pattern/05_chain_of_resp)
 
-[6. Фабричный метод (FactoryMethod)](/wildberries_l1/pattern/06_factory_method)
+[6. Фабричный метод (FactoryMethod)](/wildberries_l2/pattern/06_factory_method)
 
-[7. Стратегия (Strategy)](/wildberries_l1/pattern/07_strategy)
+[7. Стратегия (Strategy)](/wildberries_l2/pattern/07_strategy)
 
-[8. Состояние (State)](/wildberries_l1/pattern/08_state)
+[8. Состояние (State)](/wildberries_l2/pattern/08_state)
 
 ## Задачи на разработку (develop)
 
-### [1. Базовая задача](/wildberries_l1/develop/dev01)
+### [1. Базовая задача](/wildberries_l2/develop/dev01)
 Дана структура Human (с произвольным набором полей и методов). Реализовать встраивание методов в структуре Action от родительской структуры Human (аналог наследования).
 
-### [2. Задача на распаковку](/wildberries_l1/develop/dev02)
+### [2. Задача на распаковку](/wildberries_l2/develop/dev02)
 Написать программу, которая конкурентно рассчитает значение квадратов чисел взятых из массива (2,4,6,8,10) и выведет их квадраты в stdout.
 
-### [3. Утилита sort](/wildberries_l1/develop/dev03)
+### [3. Утилита sort](/wildberries_l2/develop/dev03)
 Дана последовательность чисел: 2,4,6,8,10. Найти сумму их квадратов(22+32+42….) с использованием конкурентных вычислений.
 
-### [4. Поиск анаграмм по словарю](/wildberries_l1/develop/dev04)
+### [4. Поиск анаграмм по словарю](/wildberries_l2/develop/dev04)
 Реализовать постоянную запись данных в канал (главный поток). Реализовать набор из N воркеров, которые читают произвольные данные из канала и выводят в stdout. Необходима возможность выбора количества воркеров при старте. Программа должна завершаться по нажатию Ctrl+C. Выбрать и обосновать способ завершения работы всех воркеров.
 
-### [5. Утилита grep](/wildberries_l1/develop/dev05)
+### [5. Утилита grep](/wildberries_l2/develop/dev05)
 Разработать программу, которая будет последовательно отправлять значения в канал, а с другой стороны канала — читать. По истечению N секунд программа должна завершаться.
 
-### [6. Утилита cut](/wildberries_l1/develop/dev06)
+### [6. Утилита cut](/wildberries_l2/develop/dev06)
 Реализовать все возможные способы остановки выполнения горутины.
 
-### [7. Or channel](/wildberries_l1/develop/dev07)
+### [7. Or channel](/wildberries_l2/develop/dev07)
 Реализовать конкурентную запись данных в map.
 
-### [8. Взаимодействие с ОС](/wildberries_l1/develop/dev08)
+### [8. Взаимодействие с ОС](/wildberries_l2/develop/dev08)
 Дана переменная int64. Разработать программу которая устанавливает i-й бит в 1 или 0.
 
-### [9. Утилита wget](/wildberries_l1/develop/dev09)
+### [9. Утилита wget](/wildberries_l2/develop/dev09)
 Разработать конвейер чисел. Даны два канала: в первый пишутся числа (x) из массива, во второй — результат операции x*2, после чего данные из второго канала должны выводиться в stdout.
 
-### [10. Утилита telnet](/wildberries_l1/develop/dev10)
+### [10. Утилита telnet](/wildberries_l2/develop/dev10)
 Дана последовательность температурных колебаний: -25.4, -27.0 13.0, 19.0, 15.5, 24.5, -21.0, 32.5. Объединить данные значения в группы с шагом в 10 градусов. Последовательность в подмножноствах не важна.
 Пример: -20:{-25.0, -27.0, -21.0}, 10:{13.0, 19.0, 15.5}, 20: {24.5}, etc.
 
-### [11. HTTP-сервер](/wildberries_l1/develop/dev11)
+### [11. HTTP-сервер](/wildberries_l2/develop/dev11)
 Реализовать пересечение двух неупорядоченных множеств.
 
 ## Чтение и понимание кода
 
-### [Задание 1](/wildberries_l1/listing/listing01.md)
+### [Задание 1](/wildberries_l2/listing/listing01.md)
 
-### [Задание 2](/wildberries_l1/listing/listing02.md)
+### [Задание 2](/wildberries_l2/listing/listing02.md)
 
-### [Задание 3](/wildberries_l1/listing/listing03.md)
+### [Задание 3](/wildberries_l2/listing/listing03.md)
 
-### [Задание 4](/wildberries_l1/listing/listing04.md)
+### [Задание 4](/wildberries_l2/listing/listing04.md)
 
-### [Задание 5](/wildberries_l1/listing/listing05.md)
+### [Задание 5](/wildberries_l2/listing/listing05.md)
 
-### [Задание 6](/wildberries_l1/listing/listing06.md)
+### [Задание 6](/wildberries_l2/listing/listing06.md)
 
-### [Задание 7](/wildberries_l1/listing/listing07.md)
+### [Задание 7](/wildberries_l2/listing/listing07.md)
